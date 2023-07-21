@@ -21,13 +21,13 @@ const Navbar = async () => {
                 <SearchBar />
 
                 {/* actions */}
-                {/* {session?.user ? (
-          <UserAccountNav user={session.user} />
-        ) : (
-          <Link href='/sign-in' className={buttonVariants()}>
-            Sign In
-          </Link>
-        )} */}
+                {session?.user ? (
+                    <UserAccountNav user={session.user} />
+                ) : (
+                    <Link href='/sign-in' className={buttonVariants()}>
+                        Sign In
+                    </Link>
+                )}
             </div>
         </div>
     )
