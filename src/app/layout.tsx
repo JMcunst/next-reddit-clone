@@ -25,9 +25,9 @@ export default function RootLayout({
       )}>
       <body className='min-h-screen pt-12 bg-slate-50 antialiased'>
         <Navbar />
-          <div className='container max-w-7xl mx-auto h-full pt-12'>
-            {children}
-          </div>
+        <div className='container max-w-7xl mx-auto h-full pt-12'>
+          {children}
+        </div>
 
       </body>
     </html>
